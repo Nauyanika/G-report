@@ -1,0 +1,2503 @@
+
+
+
+img,
+object,
+embed,
+video {
+    max-width: 100%;
+}
+
+
+
+body {
+    float: left;
+    width: 100%;
+    height: 2px;
+    background: #3f3f3f;
+   background-image: url("../image/body-bg.jpg");
+    /*border-top:5px solid #000000;*/
+    border-bottom: 2px solid #249FAB;
+    position: fixed;
+    z-index: 3;
+}
+.field-validation-error {
+    text-shadow: 2px 2px 5px #800000;
+    color: #F7972A;
+    display: list-item;
+    font-size: 13px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    float: left;
+    width: 100%;
+}
+#imgBtnRefreshCaptcha{
+    width: 15px;
+    margin-left: 40px;
+}
+#imgCaptcha{
+width: 80px;
+height: 30px;
+
+}
+#textinput1{
+    width: 150px;
+    font-size: 12px;
+    
+}
+.gridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.36%;
+    padding-left: 1.82%;
+    padding-right: 1.82%;
+}
+
+#LayoutDiv1 {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 20px 0 10px 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+.bar-chart
+   {
+	opacity:.5;
+   }
+   lable{
+	cursor: pointer;
+	font-size: 14px;
+	color: white;
+	margin-right: 5px;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 20px 0 0 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.panel {
+    display: none;
+    float: left;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 3;
+    background: rgba(0, 0, 0, .4);
+    padding: 10px;
+}
+
+.panel a {
+    float: right;
+}
+
+.user-details {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    margin: 0 0 10px 0;
+    background: #fff;
+    padding: 0 10px;
+    color: #20B7C9;
+    border-radius: 5px;
+    border: 2px solid #d1d1d1;
+    box-shadow: 0px 0px 14px #fff;
+    height: 35px;
+    line-height: 35px;
+}
+
+.user-details i {
+    margin: 10px 0 0 0;
+}
+
+.responsive_menu select {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #ffffff;
+  
+    background-color: #20B7C9;
+    background-image: none;
+    border: none;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    color: #fff; 
+ }
+nav {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+nav ul {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+nav ul li {
+    margin: 0;
+    display: inline-block;
+    list-style: none;
+  
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 18px;
+    float: left;
+}
+#accor{
+	margin-top: 30px;
+	background-color:'#cfe2ff';
+}
+nav ul li a:hover {
+    background: #20b7c9;
+}
+
+.active {
+    background: #20b7c9;
+}
+
+.container2{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0 0;
+    padding: 20px 2%;
+    position: relative;
+    display: block;
+    min-height: 300px;
+    z-index: 1;
+    border-radius: 0 50px 0 0;
+    border: 1px solid #fff;
+    border-bottom: none;
+    background: rgba(255, 255, 255, 0.60);
+    background-image: url("../image/body-bg.jpg");
+  
+}
+.container1{
+	float:left;
+	width:100%;
+	height:auto;
+	margin: 30px 0 0 50px;
+	padding:20px 2%;
+	position:relative;
+	display:block;
+	min-height:350px;
+	z-index:1;
+	border-radius:0 50px 0 0;
+	border:1px solid #fff;
+	border-bottom:none;
+	background:rgba(255, 255, 255, 0.60);	
+}
+
+.login-div {
+    float: left;
+    width: 96%;
+    height: auto;
+    margin: 50px 2% 0 2%;
+    padding: 0 0 10px 0;
+    position: relative;
+    display: block;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 5px #999999;
+    z-index: 2;
+    background: rgba(0, 0, 0, .3);
+}
+
+.fields {
+    float: left;
+    width: 92%;
+    margin: 10px 4%;
+    padding: 0;
+    position: relative;
+    display: block;
+    background: rgb(226, 226, 226);
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UyZTJlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#ffffff', GradientType=0);
+    /* IE6-8 */
+}
+
+.login-row-width {
+    width: 100%;
+}
+
+.login-submit {
+    width: 92%;
+    margin: 0 4%;
+}
+
+.login-row {
+    float: left;
+    height: 40px;
+    padding: 0;
+    position: relative;
+    display: block;
+    line-height: 40px;
+}
+
+.login-row h2 {
+    margin: 0;
+    background: #4fd3dd;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+}
+
+.login-label {
+    float: left;
+    width: 12%;
+    height: auto;
+    margin: 2px 0 0 5%;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.login-fields {
+    float: left;
+    width: 68%;
+    height: auto;
+    margin: 0 2% 0 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.login-row span {
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    margin-top: -6px;
+}
+
+.imgLeftMargin {
+    margin-left: -10px;
+}
+
+.login-fields input[type=submit] {
+    float: right;
+}
+
+.login-fields input[type=text],
+input[type=password] {
+    width: 180px;
+    height: 35px;
+    border-radius: none;
+    border: none;
+    font-size: 20px;
+}
+
+.bar-chart {
+    position: absolute;
+    display: block;
+    right: 20px;
+    bottom: 20px;
+    width: 120px;
+    z-index: 1;
+    opacity: .2;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    line-height: 40px;
+    color: #FFF;
+    background: url(../image/footer-shadow.png) bottom repeat-x #16b2c3;
+    border-radius: 0 0 20px 20px;
+    /* margin: 0 0 20px 0; */
+    border: 1px solid #FFFFFF;
+    border-top: none;
+}
+
+.copyright {
+    float: left;
+    width: 46%;
+    height: auto;
+    margin: 0;
+    padding: 0 2%;
+    position: relative;
+    display: block;
+}
+
+/*-> inner page css*/
+
+.row {
+    width: 100%;
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+.row-left {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.row-mid {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.row-right {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.row-right.show-details-button {
+    width: 10%;
+}
+
+.text-center {
+    text-align: center;
+    line-height: 30px;
+}
+
+.arrow-first {
+    float: left;
+    width: 5%;
+}
+
+.arrow-prev {
+    float: left;
+    width: 5%;
+}
+
+.pager {
+    float: left;
+    width: 80%;
+}
+
+.pager a {
+    padding: 0 5px;
+}
+
+.pager input[type=text] {
+    width: 30px;
+    height: 26px;
+}
+
+.pager select {
+    float: right;
+}
+
+.arrow-next {
+    float: right;
+    width: 5%;
+}
+
+.arrow-last {
+    float: right;
+    width: 5%;
+}
+#btnLogin{
+    background-color: #20B7C9;
+    border:  1px solid #20B7C9;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    } 
+/*inner page css <-*/
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+
+
+
+@media only screen and (max-width: 281px) {
+    div.btn{
+        padding: 0px;
+    }
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 8px;
+        margin-left: 22px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    .logo {
+        float: left;
+        width: 150px;
+        height: auto;
+        margin: 20px 0 0 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    #imgBtnRefreshCaptcha{
+        width: 7px;
+        margin-left: 2px;
+    }
+    #imgCaptcha{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    color: green;
+    
+    }
+    #textinput1{
+        width: 50px;
+        font-size: 5px;
+        
+    }
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 20px 0 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        float: left;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: 10px;
+        
+    }
+    nav ul li a {
+        text-decoration: none;
+        float: left;
+        color: white;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+        background: #20b7c9;
+    }
+    .active {
+        background: #20b7c9;
+    }
+    nav ul li a:hover.selected {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+   
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+        width: 100px;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+        width: 100%;
+    }
+    nav ul li:hover ul li a {
+        padding: 10px 10%;
+        float: left;
+        width: 80%;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    .btn{
+        margin-left: 95px;
+        margin-top: -60px;
+            }
+    #btnLogin{
+        background-color: #20B7C9;
+        border:  1px solid #20B7C9;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 6px;
+        } 
+    /*submenu <-*/
+    .container1 {
+        float:left;
+	width:100%;
+	height:auto;
+	margin: 30px 0 0 0;
+	padding:20px 2%;
+	position:relative;
+	display:block;
+	min-height:300px;
+	z-index:1;
+	border-radius:0 50px 0 0;
+	border:1px solid #fff;
+	border-bottom:none;
+	background:rgba(255, 255, 255, 0.60);	
+        background-image: url("../image/body-bg.jpg");
+    }
+    .login-div {
+        float: left;
+        width: 60%;
+        height: auto;
+        margin: 40px 25% 0 5%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 35px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 25px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 72%;
+        font-size: 8px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 10px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 150px;
+    }
+    .copyright {
+        width: 46%;
+        padding: 0 2%
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 33%;
+    }
+    .row-mid {
+        width: 33%;
+    }
+    .row-right {
+        width: 33%;
+    }
+    .accordion-button{
+        background-color: #cfe2ff;
+        font-size: 8px;
+      }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 281px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 8px;
+        margin-left: 22px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    .logo {
+        float: left;
+        width: 150px;
+        height: auto;
+        margin: 20px 0 0 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    #imgBtnRefreshCaptcha{
+        width: 7px;
+        margin-left: 2px;
+    }
+    #imgCaptcha{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    color: green;
+    
+    }
+    #textinput1{
+        width: 50px;
+        font-size: 5px;
+        
+    }
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 20px 0 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        float: left;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: 10px;
+        
+    }
+    nav ul li a {
+        text-decoration: none;
+        float: left;
+        color: white;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+        background: #20b7c9;
+    }
+    .active {
+        background: #20b7c9;
+    }
+    nav ul li a:hover.selected {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+   
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+        width: 100px;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+        width: 100%;
+    }
+    nav ul li:hover ul li a {
+        padding: 10px 10%;
+        float: left;
+        width: 80%;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    div.btn{
+        padding: 0px;
+    }
+    .btn{
+        margin-left: 90px;
+        margin-top: -60px;
+            }
+    #btnLogin{
+        background-color: #20B7C9;
+        border:  1px solid #20B7C9;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 6px;
+        } 
+    /*submenu <-*/
+    .container1 {
+        float:left;
+	width:100%;
+	height:auto;
+	margin: 30px 0 0 0;
+	padding:20px 2%;
+	position:relative;
+	display:block;
+	min-height:300px;
+	z-index:1;
+	border-radius:0 50px 0 0;
+	border:1px solid #fff;
+	border-bottom:none;
+	background:rgba(255, 255, 255, 0.60);	
+        background-image: url("../image/body-bg.jpg");
+    }
+    .login-div {
+        float: left;
+        width: 60%;
+        height: auto;
+        margin: 40px 25% 0 5%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 35px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 25px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 72%;
+        font-size: 8px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 10px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 150px;
+    }
+    .copyright {
+        width: 46%;
+        padding: 0 2%
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 33%;
+    }
+    .row-mid {
+        width: 33%;
+    }
+    .row-right {
+        width: 33%;
+    }
+    .accordion-button{
+        background-color: #cfe2ff;
+        font-size: 8px;
+      }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 350px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 8px;
+        margin-left: 22px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    .logo {
+        float: left;
+        width: 150px;
+        height: auto;
+        margin: 20px 0 0 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    #imgBtnRefreshCaptcha{
+        width: 7px;
+        margin-left: 2px;
+    }
+    #imgCaptcha{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    color: green;
+    
+    }
+    #textinput1{
+        width: 50px;
+        font-size: 5px;
+        
+    }
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 20px 0 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        float: left;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: 10px;
+        
+    }
+    nav ul li a {
+        text-decoration: none;
+        float: left;
+        color: white;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+        background: #20b7c9;
+    }
+    .active {
+        background: #20b7c9;
+    }
+    nav ul li a:hover.selected {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+   
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+        width: 100px;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+        width: 100%;
+    }
+    nav ul li:hover ul li a {
+        padding: 10px 10%;
+        float: left;
+        width: 80%;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    div.btn{
+        padding: 0px;
+    }
+    .btn{
+        margin-left: 130px;
+        margin-top: -60px;
+            }
+    #btnLogin{
+        background-color: #20B7C9;
+        border:  1px solid #20B7C9;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 6px;
+        } 
+    /*submenu <-*/
+    .container1 {
+        float:left;
+	width:100%;
+	height:auto;
+	margin: 30px 0 0 0;
+	padding:20px 2%;
+	position:relative;
+	display:block;
+	min-height:300px;
+	z-index:1;
+	border-radius:0 50px 0 0;
+	border:1px solid #fff;
+	border-bottom:none;
+	background:rgba(255, 255, 255, 0.60);	
+        background-image: url("../image/body-bg.jpg");
+    }
+    .login-div {
+        float: left;
+        width: 60%;
+        height: auto;
+        margin: 40px 25% 0 5%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 35px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 25px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 72%;
+        font-size: 8px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 10px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 150px;
+    }
+    .copyright {
+        width: 46%;
+        padding: 0 2%
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 33%;
+    }
+    .row-mid {
+        width: 33%;
+    }
+    .row-right {
+        width: 33%;
+    }
+    .accordion-button{
+        background-color: #cfe2ff;
+        font-size: 8px;
+      }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 400px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 8px;
+        margin-left: 22px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    #imgBtnRefreshCaptcha{
+        width: 12px;
+        margin-left: 1px;
+    }
+    #imgCaptcha{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    color: green;
+    
+    }
+    #textinput1{
+        width: 60px;
+        font-size: 6px;
+        
+    }
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 20px 0 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        float: left;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: 13px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        float: left;
+        color: white;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+        background: #20b7c9;
+    }
+    .active {
+        background: #20b7c9;
+    }
+    nav ul li a:hover.selected {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+        
+    }
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+        width: 100px;
+        color: white;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+        width: 100%;
+    }
+    nav ul li:hover ul li a {
+        padding: 10px 10%;
+        float: left;
+        width: 100%;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    .btn{
+        margin-left: 110px;
+        margin-top: -60px;
+            }
+    #btnLogin{
+        background-color: #20B7C9;
+        border:  1px solid #20B7C9;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 6px;
+        } 
+    /*submenu <-*/
+    .container1 {
+        float:left;
+	width:100%;
+	height:auto;
+	margin: 30px 0 0 0;
+	padding:20px 2%;
+	position:relative;
+	display:block;
+	min-height:300px;
+	z-index:1;
+	border-radius:0 50px 0 0;
+	border:1px solid #fff;
+	border-bottom:none;
+	background:rgba(255, 255, 255, 0.60);	
+        background-image: url("../image/body-bg.jpg");
+    }
+    .login-div {
+        float: left;
+        width: 46%;
+        height: auto;
+        margin: 40px 25% 0 5%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 35px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 25px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 72%;
+        font-size: 8px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 13px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 220px;
+    }
+    .copyright {
+        width: 46%;
+        padding: 0 2%
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 33%;
+    }
+    .row-mid {
+        width: 33%;
+    }
+    .row-right {
+        width: 33%;
+    }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 481px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 10px;
+        margin-left: 25px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    #imgBtnRefreshCaptcha{
+        width: 12px;
+        margin-left: 5px;
+    }
+    #imgCaptcha{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    font-size: 13px;
+    
+    }
+    #textinput1{
+        width: 80px;
+        font-size: 8px;
+        
+    }
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 20px 0 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        float: left;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul li {
+        list-style: none;
+    }
+    nav ul li a {
+        text-decoration: none;
+        float: left;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+        background: #20b7c9;
+    }
+    .active {
+        background: #20b7c9;
+    }
+    nav ul li a:hover.selected {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+        width: 150px;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+        width: 100%;
+    }
+    nav ul li:hover ul li a {
+        padding: 10px 10%;
+        float: left;
+        width: 80%;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    .btn{
+        margin-left: 120px;
+        margin-top: -90px;
+            }
+    #btnLogin{
+        background-color: #20B7C9;
+        border:  1px solid #20B7C9;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 8px;
+        } 
+    /*submenu <-*/
+    .container1 {
+        float:left;
+	width:100%;
+	height:auto;
+	margin: 30px 0 0 0;
+	padding:20px 2%;
+	position:relative;
+	display:block;
+	min-height:300px;
+	z-index:1;
+	border-radius:0 50px 0 0;
+	border:1px solid #fff;
+	border-bottom:none;
+	background:rgba(255, 255, 255, 0.60);	
+        background-image: url("../image/body-bg.jpg");
+    }
+    .login-div {
+        float: left;
+        width: 46%;
+        height: auto;
+        margin: 40px 25% 0 5%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 40px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 40px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 72%;
+        font-size: 10px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 13px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 250px;
+    }
+    .copyright {
+        width: 46%;
+        padding: 0 2%
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 33%;
+    }
+    .row-mid {
+        width: 33%;
+    }
+    .row-right {
+        width: 33%;
+    }
+    /*inner page css <-*/
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+
+
+
+@media only screen and (min-width: 700px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 8px;
+        margin-left: 25px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    #imgBtnRefreshCaptcha{
+        min-width:  15px;
+        margin-left: 2px;
+    }
+    #imgCaptcha{
+    width: 55px;
+    height: 30px;
+    color: green;
+    font-size: 15px;
+    text-align: center;
+    
+    }
+    #textinput1{
+        width: 78px;
+        font-size: 9px;
+        
+    }
+    .gridContainer {
+        width: 80%;
+        max-width: 1232px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: auto;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: right;
+        width: auto;
+        height: auto;
+        margin: 54px 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        list-style: none;
+        float: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background: #20b7c9;
+    }
+    nav ul li a.active {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+    }
+    .new-opt {
+        background: #0ea1b2;
+        border-bottom: 1px solid #028897 !important;
+    }
+    .new-opt a:hover {
+        background: #cefaff !important;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    /*submenu <-*/
+    .container1 {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 2%;
+        position: relative;
+        display: block;
+        min-height: 350px;
+    }
+    .btn{
+        margin-left: 120px;
+        margin-top: -80px;
+            }
+            #btnLogin{
+               background-color: #20B7C9;
+               border:  1px solid #20B7C9;
+               color: white;
+               font-size: 10px;
+               border-radius: 5px;
+               font-weight: bold;
+               } 
+    .login-div {
+        float: left;
+        width: 36%;
+        height: auto;
+        margin: 29px 0 0 12%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 40px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 40px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 66%;
+        font-size: 10px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 13px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 320px;
+    }
+    .copyright {
+        width: 96%;
+        padding: 0 2%;
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 30%;
+        margin: 0;
+    }
+    .row-mid {
+        width: 30%;
+        margin: 0;
+    }
+    .row-right {
+        width: 30%;
+        margin: 0;
+    }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 900px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 10px;
+        margin-left: 23px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 89%;
+    }
+    #imgBtnRefreshCaptcha{
+        min-width:  15px;
+        margin-left: 5px;
+    }
+    #imgCaptcha{
+    width: 60px;
+    height: 30px;
+    color: green;
+    font-size: 15px;
+    text-align: center;
+    
+    }
+    #textinput1{
+        width: 90px;
+        font-size: 10px;
+        
+    }
+    .gridContainer {
+        width: 78%;
+        max-width: 1232px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: auto;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: right;
+        width: auto;
+        height: auto;
+        margin: 54px 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        list-style: none;
+        float: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background: #20b7c9;
+    }
+    nav ul li a.active {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+    }
+    .new-opt {
+        background: #0ea1b2;
+        border-bottom: 1px solid #028897 !important;
+    }
+    .new-opt a:hover {
+        background: #cefaff !important;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    /*submenu <-*/
+    .container1 {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 2%;
+        position: relative;
+        display: block;
+        min-height: 350px;
+    }
+    .btn{
+        margin-left: 150px;
+        margin-top: -80px;
+            }
+            #btnLogin{
+               background-color: #20B7C9;
+               border:  1px solid #20B7C9;
+               color: white;
+               font-size: 10px;
+               border-radius: 5px;
+               font-weight: bold;
+               } 
+    .login-div {
+        float: left;
+        width: 36%;
+        height: auto;
+        margin: 29px 0 0 12%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 40px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 40px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 66%;
+        font-size: 10px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 15px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 340px;
+    }
+    .copyright {
+        width: 96%;
+        padding: 0 2%;
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 30%;
+        margin: 0;
+    }
+    .row-mid {
+        width: 30%;
+        margin: 0;
+    }
+    .row-right {
+        width: 30%;
+        margin: 0;
+    }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 1024px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 11px;
+        margin-left: 25px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    #imgBtnRefreshCaptcha{
+        min-width:  15px;
+        margin-left: 10px;
+    }
+    #imgCaptcha{
+    width: 70px;
+    height: 30px;
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    
+    }
+    #textinput1{
+        width: 90px;
+        font-size: 10px;
+        
+    }
+    .gridContainer {
+        width: 78%;
+        max-width: 1232px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: auto;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: right;
+        width: auto;
+        height: auto;
+        margin: 54px 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        list-style: none;
+        float: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background: #20b7c9;
+    }
+    nav ul li a.active {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+    }
+    .new-opt {
+        background: #0ea1b2;
+        border-bottom: 1px solid #028897 !important;
+    }
+    .new-opt a:hover {
+        background: #cefaff !important;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    /*submenu <-*/
+    .container1 {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 2%;
+        position: relative;
+        display: block;
+        min-height: 350px;
+    }
+    .btn{
+        margin-left: 180px;
+        margin-top: -80px;
+            }
+            #btnLogin{
+               background-color: #20B7C9;
+               border:  1px solid #20B7C9;
+               color: white;
+               font-size: 12px;
+               border-radius: 5px;
+               font-weight: bold;
+               } 
+    .login-div {
+        float: left;
+        width: 36%;
+        height: auto;
+        margin: 29px 0 0 12%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 40px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 40px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 66%;
+        font-size: 10px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 14px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 340px;
+    }
+    .copyright {
+        width: 96%;
+        padding: 0 2%;
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 30%;
+        margin: 0;
+    }
+    .row-mid {
+        width: 30%;
+        margin: 0;
+    }
+    .row-right {
+        width: 30%;
+        margin: 0;
+    }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 1200px) {
+  
+    div#alert.alert{
+        padding: 10px; 
+     }
+    span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 12px;
+        margin-left: 35px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+   
+    #imgBtnRefreshCaptcha{
+        min-width:  15px;
+        margin-left: 10px;
+    }
+    #imgCaptcha{
+    width: 80px;
+    height: 30px;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    
+    }
+    #textinput1{
+        width: 120px;
+        font-size: 10px;
+        
+    }
+    .gridContainer {
+        width: 78%;
+        max-width: 1232px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: auto;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: right;
+        width: auto;
+        height: auto;
+        margin: 54px 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        list-style: none;
+        float: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background: #20b7c9;
+    }
+    nav ul li a.active {
+       
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        
+        display: none;
+        margin: 37px 0 0 0;
+    }
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+    }
+    .new-opt {
+        background: #0ea1b2;
+        border-bottom: 1px solid #028897 !important;
+    }
+    .new-opt a:hover {
+        background: #cefaff !important;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    /*submenu <-*/
+    .container1 {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 2%;
+        position: relative;
+        display: block;
+        min-height: 350px;
+    }
+    .btn{
+        margin-left: 180px;
+        margin-top: -80px;
+            }
+            #btnLogin{
+               background-color: #20B7C9;
+               border:  1px solid #20B7C9;
+               color: white;
+               font-size: 12px;
+               border-radius: 5px;
+               font-weight: bold;
+               } 
+    .login-div {
+        float: left;
+        width: 36%;
+        height: auto;
+        margin: 29px 0 0 12%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 40px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 40px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 66%;
+        font-size: 10px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+        font-size: 15px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 340px;
+    }
+    .copyright {
+        width: 96%;
+        padding: 0 2%;
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 30%;
+        margin: 0;
+    }
+    .row-mid {
+        width: 30%;
+        margin: 0;
+    }
+    .row-right {
+        width: 30%;
+        margin: 0;
+    }
+    /*inner page css <-*/
+}
+@media only screen and (min-width: 1300px) {
+    div#alert.alert{
+        padding: 10px; 
+     }
+   span.field-validation-error {
+    
+        text-shadow: 2px 2px 5px #800000;
+        color: #F7972A;
+        display: list-item;
+        font-size: 14px;
+        margin-left: 25px;
+        font-weight: bold;
+        font-family: Arial;
+        float: left;
+        width: 80%;
+    }
+    div#alert.alert{
+       padding: 10px; 
+    }
+ 
+    #imgBtnRefreshCaptcha{
+        min-width:  15px;
+        margin-left: 10px;
+    }
+    #imgCaptcha{
+    width: 110px;
+    height: 30px;
+    color: green;
+    font-size: 23px;
+    text-align: center;
+    
+    }
+    #textinput1{
+        width: 150px;
+        font-size: 15px;
+        
+    }
+    .gridContainer {
+        width: 78%;
+        max-width: 1232px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: auto;
+    }
+    #LayoutDiv1 {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .header {
+        float: left;
+    }
+    nav {
+        float: right;
+        width: auto;
+        height: auto;
+        margin: 54px 10px 0;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        list-style: none;
+        float: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background: #20b7c9;
+    }
+    nav ul li a.active {
+        background: #20b7c9;
+    }
+    /* -> submenu*/
+    nav ul li ul {
+        display: none;
+        margin: 37px 0 0 0;
+    }
+    nav ul li:hover ul {
+        display: block;
+        position: absolute;
+        background: #20B7C9;
+        z-index: 2;
+    }
+    .new-opt {
+        background: #0ea1b2;
+        border-bottom: 1px solid #028897 !important;
+    }
+    .new-opt a:hover {
+        background: #cefaff !important;
+    }
+    nav ul li:hover ul li {
+        display: table;
+        border-bottom: 1px solid #10a7b8;
+    }
+    nav ul li:hover ul li a:hover {
+        width: 100%;
+        background: #FFF;
+        color: #10a7b8;
+    }
+    /*submenu <-*/
+    .container1 {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 2%;
+        position: relative;
+        display: block;
+        min-height: 350px;
+    }
+    .btn{
+        margin-left: 250px;
+        margin-top: -80px;
+            }
+            #btnLogin{
+               background-color: #20B7C9;
+               border:  1px solid #20B7C9;
+               color: white;
+               font-size: 13px;
+               border-radius: 5px;
+               font-weight: bold;
+              
+               } 
+    .login-div {
+        float: left;
+        width: 36%;
+        height: auto;
+        margin: 29px 0 0 12%;
+        position: relative;
+        display: block;
+        /*border:1px solid #FFFFFF;*/
+        box-shadow: 0px 0px 5px #999999;
+        z-index: 2;
+    }
+    .login-row {
+        float: left;
+        height: 40px;
+        padding: 0;
+        position: relative;
+        display: block;
+        line-height: 40px;
+    }
+    .login-row h2 {
+        margin: 0;
+    }
+    .login-label {
+        width: 12%;
+    }
+    .login-fields {
+        width: 66%;
+        font-size: 10px;
+    }
+    .login-fields input[type=text],
+    input[type=password] {
+        width: 96%;
+        height: 35px;
+    }
+    .bar-chart {
+        right: 20px;
+        bottom: 20px;
+        width: 340px;
+    }
+    .copyright {
+        width: 96%;
+        padding: 0 2%;
+    }
+    /*-> inner page css*/
+    .row {
+        width: 100%;
+    }
+    .row-left {
+        width: 30%;
+        margin: 0;
+    }
+    .row-mid {
+        width: 30%;
+        margin: 0;
+    }
+    .row-right {
+        width: 30%;
+        margin: 0;
+    }
+    /*inner page css <-*/
+}
+
+
+
+.captchaText {
+    width: 59% !important;
+}
+
+.remainLoan {
+    float: right;
+    margin-top: -35px;
+    color: red;
+    padding-right: 10px;
+}

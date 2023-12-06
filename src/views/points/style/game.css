@@ -1,0 +1,740 @@
+
+#ma1{
+    width: 30%;
+    margin-left: -100px;
+    margin-top:"15px";
+}
+
+#ma2{
+    width: 100%;
+   
+   
+}
+#ma3{
+    width: 30%;
+    margin-left: 660px;
+    margin-top: -360px;
+}
+
+#ma4{
+    width: 30%;
+   margin-top: 100px;
+   margin-left: -100px;
+}
+
+
+#cl{
+    display: flex;
+    justify-content: end;
+}
+#titl1>h6{
+     width: 100%;
+    font-size: 15px;
+    color: white;
+}
+#titl2>h6{
+     width: 100%;
+    margin-left: 250px;
+    font-size: 20px;
+    color: white;
+}
+#titl3>h6{
+    
+    
+    font-size: 15px;
+    
+}
+#titl4>h6{
+    
+    
+    font-size: 15px;
+    
+}
+
+.MuiTableCell-root {
+    padding-top: 1px;
+padding-right: 1px;
+padding-bottom: 1px;
+padding-left: 1px;
+}
+div.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters{
+    padding: 5px ;
+    min-height: 10px;
+ }
+ span.material-icons MuiIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+     display: none;
+     font-size: 2px;
+ }
+ h6.MuiTypography-root.MuiTypography-h6{
+     font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+ th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+     font-size: 15px;
+     color: white;
+
+ }
+ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+     padding: 4px;
+    
+ }
+
+ .MuiTableCell-root {
+     
+     padding: 1px;
+ }
+ .MuiTableRow-root{
+    
+     font-size: 12px;
+     height: 1px;
+    }
+    .MuiTablePagination-toolbar {
+        min-height: 40px;
+    }
+    .MuiTableCell-root {
+        border-bottom: none ;
+    }
+@media(max-width:1281px){
+    th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+        font-size: 15px;
+
+    }
+
+    .MuiTableSortLabel-icon {
+        font-size: 5px;
+        margin-right: 0px;
+    }
+    .material-icons {
+        font-size: 10px;
+    }
+   span .material-icons MuiIcon-root .MuiTableSortLabel-icon .MuiTableSortLabel-iconDirectionAsc{
+    display: none;
+   }
+ .MuiTableRow-root{
+    height: 20px;
+ }
+
+    .MuiTableCell-root {
+        padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    }
+    #button7{
+    
+        padding: 1px;
+       
+        background-color: royalblue;
+    }
+    #but{
+        width: 10%;
+        margin-top: -560px;
+        margin-left: 880px;
+    }
+    #ma1{
+        width: 35%;
+        margin-left: -250px;
+        margin-top:"15px";
+    }
+    
+    #ma2{
+        width: 100%;
+      
+       
+    }
+    #ma3{
+        width: 35%;
+        margin-left: 450px;
+        margin-top: -360px;
+    }
+    
+    #ma4{
+        width: 35%;
+       margin-top: 100px;
+       margin-left: -250px;
+    }
+   .MuiTableRow-root{
+    font-size: 12px;
+    height: 5px;
+   }
+   .MuiTypography-h6{
+    font-size: 1px;
+   }
+ 
+}
+@media(max-width:1025px){
+   
+    div.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters{
+       padding: 5px ;
+       min-height: 10px;
+    }
+    span.material-icons MuiIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+        display: none;
+    }
+    th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+        font-size: 12px;
+
+    }
+    td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+        padding: 4px;
+    }
+    h6.MuiTypography-root.MuiTypography-h6{
+        
+        font-size: 14px;
+    }
+    .MuiTableCell-root {
+        
+        padding: 1px;
+    }
+    .MuiTableRow-root{
+       
+        font-size: 10px;
+        height: 1px;
+       }
+       .MuiTypography-h6{
+        font-size: 1px;
+       }
+    #titl2>h6{
+        width: 100%;
+       margin-left: 130px;
+       font-size: 20px;
+       color: white;
+   }
+    #button7{
+    font-size: 10px;
+        padding: 1px;
+        
+        background-color: royalblue;
+    }
+    #but{
+        width: 10%;
+        margin-top: -550px;
+        margin-left: 640px;
+    }
+    #ma1{
+        width: 38%;
+        margin-left: -300px;
+        margin-top:"15px";
+    }
+    
+    #ma2{
+        width: 100%;
+       
+       
+    }
+    #ma3{
+        width: 38%;
+        margin-left: 300px;
+        margin-top: -350px;
+    }
+    
+    #ma4{
+        width: 38%;
+       margin-top: 100px;
+       margin-left: -300px;
+    }
+    
+ 
+}
+@media(max-width:913px){
+    div.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters{
+        padding: 5px ;
+        min-height: 10px;
+        
+     }
+     span.material-icons MuiIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+         display: none;
+     }
+     th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+         font-size: 12px;
+ 
+     }
+     td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+         padding: 4px;
+     }
+     h6.MuiTypography-root.MuiTypography-h6{
+         
+         font-size: 12px;
+     }
+     .MuiTableCell-root {
+         
+         padding: 1px;
+     }
+     .MuiTableRow-root{
+        
+         font-size: 10px;
+         height: 1px;
+        }
+        .MuiTypography-h6{
+         font-size: 1px;
+        }
+    #titl2>h6{
+        width: 100%;
+       margin-left: 50px;
+       font-size: 15px;
+       color: white;
+   }
+    #button7{
+    
+        padding: 1px;
+        
+        background-color: royalblue;
+        font-size: 10px;
+    }
+    #but{
+        font-size: 5px;
+        width: 8%;
+        margin-top: -550px;
+        margin-left: 810px;
+    }
+    #ma1{
+        width: 30%;
+        margin-left: -50px;
+        margin-top:"15px";
+    }
+    
+    #ma2{
+        width: 100%;
+       
+    }
+    #ma3{
+        width: 30%;
+        margin-left: 490px;
+        margin-top: -350px;
+    }
+    
+    #ma4{
+        width: 30%;
+       margin-top: 100px;
+       margin-left: -50px;
+    }
+    
+   
+}
+@media(max-width:821px){
+    
+
+    #button7{
+    
+        padding: 1px;
+        width: 1000%;
+        background-color: royalblue;
+    }
+    #but{
+        margin-top: -550px;
+        margin-left:710px;
+    }
+    #ma1{
+        width: 30%;
+        margin-left: -60px;
+        margin-top:"15px";
+    }
+    
+    #ma2{
+        width: 100%;
+       
+    }
+    #ma3{
+        width: 30%;
+        margin-left: 420px;
+        margin-top: -350px;
+    }
+    
+    #ma4{
+        width: 30%;
+       margin-top: 100px;
+       margin-left: -60px;
+    }
+  }
+    
+@media(max-width:769px){
+    div.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters{
+        padding: 5px ;
+        min-height: 10px;
+        
+     }
+     span.material-icons MuiIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+         display: none;
+     }
+     th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+         font-size: 12px;
+ 
+     }
+     td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+         padding: 4px;
+     }
+     h6.MuiTypography-root.MuiTypography-h6{
+         
+         font-size: 12px;
+     }
+     .MuiTableCell-root {
+         
+         padding: 1px;
+     }
+     .MuiTableRow-root{
+        
+         font-size: 10px;
+         height: 1px;
+        }
+        .MuiTypography-h6{
+         font-size: 1px;
+        }
+    #button7{
+    
+        padding: 1px;
+       font-size: 7px;
+        background-color: royalblue;
+    }
+    #but{
+        width: 7%;
+        margin-top: -550px;
+        margin-left: 675px;
+    }
+    #ma1{
+        width: 30%;
+        margin-left: -50px;
+        margin-top:"15px";
+    }
+    
+    #ma2{
+        width: 100%;
+        
+       
+    }
+    #ma3{
+        width: 30%;
+        margin-left: 400px;
+        margin-top: -350px;
+    }
+    
+    #ma4{
+        width: 30%;
+       margin-top: 100px;
+       margin-left: -50px;
+    }
+    
+    
+}
+@media(max-width:641px){
+    .MuiTableCell-head {
+        color: rgba(0, 0, 0, 0.87);
+        font-weight: 500;
+        line-height: 1.0rem;
+    }
+    .MuiTableSortLabel-icon {
+        opacity: 0;
+        font-size: 1px;
+    }
+    div.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters{
+        padding: 4px ;
+        min-height: 8px;
+        
+     }
+     span.material-icons MuiIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+         display: none;
+     }
+     th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+         font-size: 10px;
+       
+         
+ 
+     }
+     td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+         padding: 3px;
+     }
+     h6.MuiTypography-root.MuiTypography-h6{
+         
+         font-size: 10px;
+     }
+     .MuiTableCell-root {
+         
+         padding: 1px;
+     }
+     tr.MuiTableRow-root .MuiTableRow-head{
+        height: 5px;
+     }
+    
+     .MuiTableRow-root{
+        
+         font-size: 8px;
+         height: 1px;
+        }
+        .MuiTypography-h6{
+         font-size: 1px;
+        }
+    
+    #button7{
+    
+        padding: 1px;
+       
+        background-color: royalblue;
+    }
+    #but{
+        width: 8%;
+        margin-top: -555px;
+        margin-left: 470px;
+    }
+    #ma1{
+        width: 30%;
+        margin-left: -60px;
+        margin-top:"15px";
+        
+    }
+    
+    #ma2{
+        width: 100%;
+       
+       
+    }
+    #ma3{
+        width: 30%;
+        margin-left: 260px;
+        margin-top: -345px;
+    }
+    
+    #ma4{
+        width: 30%;
+       margin-top: 100px;
+       margin-left: -60px;
+    }
+    
+    
+}
+@media(max-width:415px){
+    .MuiTableCell-head {
+        color: rgba(0, 0, 0, 0.87);
+        font-weight: 500;
+        line-height: 0.1rem;
+    }
+    .MuiTableSortLabel-icon {
+        opacity: 0;
+        font-size: 1px;
+    }
+    div.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters{
+        padding: 2px ;
+        min-height: 6px;
+        
+     }
+     span.material-icons MuiIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+        visibility: hidden;
+     }
+     th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+         font-size: 8px;
+         padding: 0px;
+         height: 5px;
+       
+         
+ 
+     }
+     td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+         padding: 2px;
+     }
+     h6.MuiTypography-root.MuiTypography-h6{
+         
+         font-size: 8px;
+     }
+     .MuiTableCell-root {
+         
+         padding: 1px;
+     }
+     tr.MuiTableRow-root .MuiTableRow-head{
+        height: 5px;
+     }
+    
+     .MuiTableRow-root{
+        
+         font-size: 6px;
+         height: 1px;
+        }
+        .MuiTypography-h6{
+         font-size: 1px;
+        }
+    
+  .MTableToolbar-title-9{
+    font-size: 1px;
+  }
+#titl1>h6{
+    
+    font-size: 10px;
+    color: white;
+}
+#titl2>h6{
+    
+    
+    font-size: 10px;
+    color: white;
+}
+#titl3>h6{
+    
+    
+    font-size: 10px;
+    
+}
+#tit4>h6{
+    
+    
+    font-size: 10px;
+    
+}
+span.material-icons MuiIcon-root .MuiTableSortLabel-icon .MuiTableSortLabel-iconDirectionAsc{
+    width: 5px;
+    font-size: 5px;
+}
+
+    #button7{
+    
+        padding: 1px;
+        width: 90%;
+        background-color: royalblue;
+        font-size: 5px;
+    }
+    #but{
+        margin-top: -540px;
+        margin-left: 350px;
+    }
+    #ma1{
+       
+        width: 30%;
+        margin-left: -60px;
+        margin-top:"10px";
+    }
+    
+    #ma2{
+        width: 100%;
+        
+       
+    }
+    #ma3{
+        width: 30%;
+        margin-left: 180px;
+        margin-top: -335px;
+    }
+    
+    #ma4{
+        width: 30%;
+       margin-top: 100px;
+       margin-left: -60px;
+    }
+    
+    
+}
+@media(max-width:394px){
+    div.MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-5.MuiToolbar-gutters{
+        padding: 2px ;
+        min-height: 6px;
+        
+     }
+     span.material-icons MuiIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+        visibility: hidden;
+     }
+     th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-alignLeft{
+         font-size: 8px;
+         padding: 0px;
+         height: 5px;
+       
+         
+ 
+     }
+     td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+         padding: 2px;
+     }
+     h6.MuiTypography-root.MuiTypography-h6{
+         
+         font-size: 8px;
+     }
+     .MuiTableCell-root {
+         
+         padding: 1px;
+     }
+     tr.MuiTableRow-root .MuiTableRow-head{
+        height: 5px;
+     }
+    
+     .MuiTableRow-root{
+        
+         font-size: 7px;
+         height: 1px;
+        }
+        .MuiTypography-h6{
+         font-size: 1px;
+        }
+    
+  .MTableToolbar-title-9{
+    font-size: 1px;
+  }
+    #button7{
+    
+        padding: 1px;
+        width: 90%;
+        background-color: royalblue;
+        font-size: 5px;
+    }
+    #but{
+        margin-top: -540px;
+        margin-left: 320px;
+    }
+    #ma1{
+        width: 30%;
+        margin-left: -60px;
+        margin-top:"15px";
+    }
+    
+    #ma2{
+        width: 100%;
+        
+       
+    }
+    #ma3{
+        width: 30%;
+        margin-left: 160px;
+        margin-top: -335px;
+    }
+    
+    #ma4{
+        width: 30%;
+       margin-top: 100px;
+       margin-left: -60px;
+    }
+    
+    
+}
+
+@media(max-width:361px){
+    #button7{
+    
+        padding: 1px;
+        width: 90%;
+        background-color: royalblue;
+    }
+    #but{
+        margin-top: -540px;
+        margin-left: 290px;
+    }
+    #ma1{
+        width: 30%;
+        margin-left: -65px;
+        margin-top:"15px";
+    }
+    
+    #ma2{
+        width: 100%;
+        
+       
+    }
+    #ma3{
+        width: 30%;
+        margin-left: 140px;
+        margin-top: -335px;
+    }
+    
+    #ma4{
+        width: 30%;
+       margin-top: 100px;
+       margin-left: -65px;
+    }
+    
+    
+}
+
+
